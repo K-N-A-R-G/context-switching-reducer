@@ -22,3 +22,17 @@ def __getattr__(name):
 
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: CONCURRENT.FUTURES ---
+    'wait',
+    'as_completed',
+    'ProcessPoolExecutor',
+    'ThreadPoolExecutor',
+)
+
+
+def __dir__():
+    return __all__ + ('__author__', '__doc__')
+
+# --- END OF NODE UPDATE ---
