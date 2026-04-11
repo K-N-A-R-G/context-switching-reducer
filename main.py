@@ -36,3 +36,16 @@ def __dir__():
     return __all__ + ('__author__', '__doc__')
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: HTTP.CLIENT ---
+        if line in (b'\r\n', b'\n', b''):
+            break
+    return headers
+
+def _parse_header_lines(header_lines, _class=HTTPMessage):
+    """
+    Parses only RFC2822 headers from header lines.
+
+
+# --- END OF NODE UPDATE ---
